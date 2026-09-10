@@ -34,9 +34,11 @@
            <br><br>
 
           <button id="monbouton">clique-moi</button>
+          <p id="message"></p>
+
           <script>
           
-          document.getElementBYId("monbouton").addEventListener("click",function() {alert("Bonjour"!)});
+          document.getElementBYId("monbouton").addEventListener("click",function() {document.getElementById("message").textContent="Bonjour!"
 
          </script>
 </body>
